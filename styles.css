@@ -489,6 +489,13 @@
   font-weight: bold;
 }
 
+@media (width <= 780px) {
+  .wonder_apps_cards_card {
+    padding: 10px 20px;
+    flex-direction: column !important;
+  }
+}
+
 /* Paying section */
 .wonder_apps__paying {
   margin-top: 112px;
