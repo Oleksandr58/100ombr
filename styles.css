@@ -390,7 +390,7 @@
 
 @media (width <= 780px) {
   .wonder_apps__header {
-    padding: 40px 20px;
+    padding: 8px 20px;
     width: calc(100% - 40px);
   }
 
@@ -490,6 +490,14 @@
 }
 
 @media (width <= 780px) {
+  .wonder_apps__header_title {
+    font-size: 16px;
+  }
+
+  .wonder_apps_cards {
+    margin-top: 100px;
+  }
+
   .wonder_apps_cards_card {
     padding: 10px 20px;
     flex-direction: column !important;
@@ -497,6 +505,8 @@
 
   .wonder_apps_cards_card img {
     margin: 0 auto;
+    max-width: 160px;
+    max-height: 160px;
   }
 
   .wonder_apps_cards_card h1 {
