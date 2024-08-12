@@ -326,6 +326,13 @@
   z-index: 999999;
 }
 
+.wonder_apps__header_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
 .wonder_apps__header img {
   max-height: 60px;
 }
@@ -336,6 +343,12 @@
   color: #322067;
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.wonder_apps__sorting {
+  display: flex;
+  gap: 16px;
 }
 
 .wonder_apps__header_nav ul {
@@ -392,6 +405,10 @@
   .wonder_apps__header {
     padding: 8px 20px;
     width: calc(100% - 40px);
+  }
+
+  .wonder_apps__sorting {
+    flex-direction: column;
   }
 
   .wonder_apps__header_nav {
@@ -495,7 +512,7 @@
   }
 
   .wonder_apps_cards {
-    margin-top: 100px;
+    margin-top: 160px;
   }
 
   .wonder_apps_cards_card {
