@@ -1,4 +1,4 @@
-const selectList = document.querySelectorAll(".wonder_apps__input_select");
+const selectList = document.querySelectorAll(".data-priority");
 
 selectList.forEach((element) => {
   element.addEventListener("click", (e) => {
