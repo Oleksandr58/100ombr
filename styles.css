@@ -463,6 +463,12 @@
   border-bottom: 1px dashed #0065ad;
 }
 
+.wonder_apps_cards_card--empty {
+  padding: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
 .wonder_apps_cards_card:nth-of-type(2n) {
   flex-direction: row-reverse;
 }
